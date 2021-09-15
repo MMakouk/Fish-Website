@@ -1,0 +1,77 @@
+/*
+Mohamed Makouk
+September 15, 2021
+CSS for HW1
+*/
+
+
+body
+{
+    background-color:#cae9ed ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em; /* change spacing between lines*/
+    margin: 3px;;
+}
+
+.clear
+{
+    clear:both;
+}
+.header
+{
+    padding: 20px;
+    margin-left: 35%;
+}
+
+.container
+{
+    /*
+        Center align and scaling
+    */
+    width:80%;
+    margin:auto;
+
+}
+
+.box-1
+{
+    border-right: 5px orange solid;
+    border-bottom: 5px orange solid;
+    padding: 20px;
+}
+
+.block
+{
+    float:left;
+    width:33.3%;
+    border:1px solid orange;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.footer
+{
+    background-color: #333;
+    color: #fff;
+}
+
+table
+{
+    width: 400px;
+    
+
+}
+
+th
+{
+    text-align: left;
+}
+
+table, th, td
+{
+    border: 1px solid#333;
+    border-collapse: collapse;
+    padding: 5px;
+}
